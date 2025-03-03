@@ -1,9 +1,13 @@
  Hello, friends...
-     The current MIPI DSI driver provided by Rockchip Inc. in older U-Boot versions (v2023 and earlier) is not compatible with U-Boot’s uclass subsystems.(a waste of time if you want to develop). I have done extensive research and made modifications to several files to make it work with the latest U-Boot versions. I have tested it with U-Boot 2023.10, 2024.10 and v2025.rc3 on orange pi 4 lts, and it works perfectly. I'm attaching the necessary files for those who need them.
+     The current MIPI DSI driver provided by Rockchip Inc. in older U-Boot versions (v2023 and earlier) is not compatible with U-Boot’s uclass subsystems.(a waste of time if you want to develop). 
+     
+I have done extensive research and made modifications to several files to make it work with the latest U-Boot versions. I have tested it with U-Boot 2023.10, 2024.10 and v2025.rc3 on orange pi 4 lts, and it works perfectly. I'm attaching the necessary files for those who need them.
+     
 This u-boot driver is nearly identical to Rockchip's Linux kernel driver, uses same driver file but there some limitations because of u-boot system, but it correctly displays the splash image when vidconsole0 probed by u-boot..
-Additionally, i want to say that, in linux kernel side, the same dw-rockchip-dsi driver in latest armbian distribitions works with from kernels 5.18 to latest kernel v6.6 and v.6.12. I tested it.
-Tested with custom 400x1200 60hz 4 lane standart mipi dsi panel from chinese panel manufacturer. I attached all modified files as attachment. Good lucks.
 
+Additionally, i want to say that, in linux kernel side, the same dw-rockchip-dsi driver in latest armbian distribitions works with from kernels 5.18 to latest kernel v6.6 and v.6.12. I tested it.
+
+Tested with custom 400x1200 60hz 4 lane standart mipi dsi panel from chinese panel manufacturer. I attached all modified files as attachment. Good lucks.
 
 ![CEEA2DF1-FAC3-4358-9540-641B00F88071](https://github.com/user-attachments/assets/3a8308aa-f556-4663-9777-62f4a9f0b113)
 
