@@ -12,6 +12,7 @@ Tested with custom 400x1200 60hz 4 lane standart mipi dsi panel from chinese pan
 ![CEEA2DF1-FAC3-4358-9540-641B00F88071](https://github.com/user-attachments/assets/3a8308aa-f556-4663-9777-62f4a9f0b113)
 
 
+![34CA6D19-B542-4522-AC41-83A07AD0E464](https://github.com/user-attachments/assets/ed0243c0-f983-4a25-8849-f84f97e2d8aa)
 
 
  dm tree command output from u-boot is 
